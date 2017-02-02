@@ -1,0 +1,18 @@
+patch:
+  search_criteria: 'dell laptops'
+  request: 348215455
+  content:
+    session: 0
+    company_name: 'chase'
+
+
+qa:
+  search_criteria: 'toshiba laptops'
+  request: 3482173
+  content:
+    session: 0
+    company_name: 'chase'
+
+
+
+

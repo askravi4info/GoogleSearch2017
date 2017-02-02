@@ -1,0 +1,12 @@
+[0127/192959.183:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0127/192959.212:ERROR:process_info.cc(103)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32>>(void *,unsigned __int64,struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32> *): Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0127/192959.212:ERROR:process_info.cc(542)] ReadProcessData failed
+[0127/192959.212:ERROR:process_reader_win.cc(233)] ReadMemory at 0x712e75a8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0127/192959.212:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0127/192959.212:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0127/204643.382:ERROR:process_reader_win.cc(114)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[0127/204643.386:ERROR:exception_snapshot_win.cc(87)] thread ID 3728 not found in process
+[0127/204643.386:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0127/204732.159:ERROR:process_reader_win.cc(114)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[0127/204732.162:ERROR:exception_snapshot_win.cc(87)] thread ID 5048 not found in process
+[0127/204732.162:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed

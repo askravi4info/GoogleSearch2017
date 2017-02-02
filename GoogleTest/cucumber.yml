@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+run_regression: --no-source --color --format pretty --format html --out C:\Users\Ravi\Desktop\google_search_Jan_2017\html-report\report.html --tags @regression
+run_qa_regression: --no-source --color --format pretty --format html --out report.html --tags @regression Environment['qa'] Environment['browser]
+run_qa_regression_chrome: --no-source --color --format pretty --format html --out report.html --tags @regression Environment['qa'] Environment['browser]
+run_qa_smoke_chrome: --no-source --color --format pretty --format html --out report.html --tags @regression Environment['qa'] Environment['browser]

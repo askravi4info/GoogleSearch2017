@@ -1,0 +1,30 @@
+require 'rubygems'
+require 'cucumber'
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new(:features) do |t|
+  t.profile = 'default'
+end
+
+
+Cucumber::Rake::Task.new(:smoke) do |t|
+  t.profile = 'run_qa_smoke_chrome'
+end
+
+
+
+namespace :features do
+  Cucumber::Rake::Task.new(:fast) do |t|
+    t.profile = 'fast'
+  end
+  Cucumber::Rake::Task.new(:slow) do |t|
+    t.profile = 'slow'
+  end
+  task :ci => [:fast, :slow]
+end
+
+task :default => :fast
+#
+#
+#
+# task :default => :features
