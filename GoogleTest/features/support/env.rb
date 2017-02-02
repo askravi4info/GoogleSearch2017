@@ -1,7 +1,7 @@
 require 'rspec'
 require 'page-object'
 
-$user_name = 'askravi4info'
+$user_name = 'askravi4info1000'
 $password = 'fkadflj'
 
 
